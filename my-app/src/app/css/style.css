@@ -1,0 +1,127 @@
+html body {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+}
+.topbar {
+    display: flex;
+    width: 100%;
+    height: 12vh;
+}
+.logo {
+    margin-left: 4em;
+    width: 20%;
+    display: flex;
+    height: 12vh;
+}
+.logo h2 {
+    display: block;
+    font-size: 2.5em;
+    text-align: center;
+    margin: auto 0;
+}
+.menu {
+    display: flex;
+    margin-left: 40%;
+    width: 40%;
+    height: 12vh;
+    box-sizing: border-box;
+}
+.menu a {
+    display: flex;
+    margin-left: 10%;
+    height: 12vh;
+    align-items: center;
+    text-decoration: none;
+}
+.menu a span {
+    justify-content: center;
+    font-size: 1.0em;
+    color: black;
+    font-weight: bold;
+}
+.main-img {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.slides {
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+    width: 300%;
+    display: flex;
+}
+
+.slide {
+	height: 100%;
+    width: 33.3333%;
+    display: block;
+}
+.red {
+	background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+	background-color: green;
+}
+.dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #555;
+}
+.news {
+    width: 100%;
+}
+.news-one {
+    width: 80%;
+    height: 12em;
+    margin: 2em 10%;
+    background-color: #f7f7f7
+}
+.news-top {
+    height: 1.2em;
+    width: 100%;
+}
+.news-top span {
+    margin-left: 1.2em;
+    font-size: 1.0em;
+}
+.news-title {
+    height: 10em;
+}
+.news-title p {
+    margin-left: 1.5em;
+    height: 10em;
+    font-size: 1.3em;
+}

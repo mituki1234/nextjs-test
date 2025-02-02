@@ -1,0 +1,91 @@
+html body {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.topbar {
+    display: flex;
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+.logo {
+    margin-left: 4em;
+    width: 20%;
+    display: flex;
+    height: 12vh;
+}
+.logo h2 {
+    display: block;
+    font-size: 2.5em;
+    text-align: center;
+    margin: auto 0;
+}
+.menu {
+    display: flex;
+    margin-left: 40%;
+    width: 40%;
+    height: 12vh;
+    box-sizing: border-box;
+}
+.menu a {
+    display: flex;
+    margin-left: 10%;
+    height: 12vh;
+    align-items: center;
+    text-decoration: none;
+}
+.menu a span {
+    justify-content: center;
+    font-size: 1.0em;
+    color: black;
+    font-weight: bold;
+}
+.login-form-container {
+    display: flex;
+    height: 88vh;
+    width: 100%;
+}
+.login-form {
+    background-color: white;
+    width: 25%;
+    height: 23em;
+    margin: auto;
+}
+.login-form h2 {
+    font-size: 1.8em;
+    padding-top: 1em;
+    text-align: center;
+}
+.login-form p {
+    margin-left: 10%;
+    margin-top: 1em;
+    font-size: 1.3em;
+}
+.login-form input {
+    height: 3em;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.login-button {
+    display: flex;
+    border: 0;
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 80%;
+    height: 3.5em;
+    background-color: rgb(96, 192, 156, 1);
+    color: white;
+}
+.login-button span {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: auto;
+}
